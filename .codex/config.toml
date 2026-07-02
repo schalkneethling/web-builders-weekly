@@ -1,0 +1,3 @@
+[mcp_servers.calavera]
+command = "bunx"
+args = ["--package", "create-project-calavera@2.0.4", "create-project-calavera-mcp"]

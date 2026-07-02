@@ -1,0 +1,340 @@
+{
+  "id": "2026-07-03",
+  "date": "2026-07-03",
+  "theme": "Web Platform Friday",
+  "size": {
+    "rows": 7,
+    "cols": 7
+  },
+  "grid": [
+    [
+      {
+        "type": "letter",
+        "answer": "F",
+        "clueNumber": 1
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "X"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "J",
+        "clueNumber": 2
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "T",
+        "clueNumber": 3
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "G"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "R",
+        "clueNumber": 4
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "M"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "D",
+        "clueNumber": 5
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "M"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "M"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "C",
+        "clueNumber": 6
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "S",
+        "clueNumber": 7
+      },
+      {
+        "type": "letter",
+        "answer": "V",
+        "clueNumber": 8
+      },
+      {
+        "type": "letter",
+        "answer": "G"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "R",
+        "clueNumber": 9
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "A",
+        "clueNumber": 10
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "I",
+        "clueNumber": 11
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "G",
+        "clueNumber": 12
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "T",
+        "clueNumber": 13
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      }
+    ]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "clue": "Layout model that distributes free space along one axis (4)",
+        "answer": "FLEX",
+        "row": 0,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 2,
+        "clue": "JavaScript language name, informally (2)",
+        "answer": "JS",
+        "row": 0,
+        "col": 5,
+        "length": 2
+      },
+      {
+        "number": 3,
+        "clue": "HTML element name, informally (3)",
+        "answer": "TAG",
+        "row": 1,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 4,
+        "clue": "Font-relative CSS unit rooted in the document (3)",
+        "answer": "REM",
+        "row": 2,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 5,
+        "clue": "Tree-shaped document interface exposed to scripts (3)",
+        "answer": "DOM",
+        "row": 2,
+        "col": 4,
+        "length": 3
+      },
+      {
+        "number": 6,
+        "clue": "The language that styles the web (3)",
+        "answer": "CSS",
+        "row": 3,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 7,
+        "clue": "Markup format for scalable vector graphics (3)",
+        "answer": "SVG",
+        "row": 4,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 9,
+        "clue": "Link attribute that describes a relationship (3)",
+        "answer": "REL",
+        "row": 4,
+        "col": 4,
+        "length": 3
+      },
+      {
+        "number": 10,
+        "clue": "Attribute family for accessible semantics (4)",
+        "answer": "ARIA",
+        "row": 5,
+        "col": 1,
+        "length": 4
+      },
+      {
+        "number": 12,
+        "clue": "Two-dimensional CSS layout system (4)",
+        "answer": "GRID",
+        "row": 6,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 13,
+        "clue": "Typed superset of JavaScript, for short (2)",
+        "answer": "TS",
+        "row": 6,
+        "col": 5,
+        "length": 2
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "HTML controls grouped together for submission (5)",
+        "answer": "FORMS",
+        "row": 0,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 8,
+        "clue": "CSS keyword family for declaring custom values (3)",
+        "answer": "VAR",
+        "row": 4,
+        "col": 1,
+        "length": 3
+      },
+      {
+        "number": 11,
+        "clue": "Identifier attribute, for short (2)",
+        "answer": "ID",
+        "row": 5,
+        "col": 3,
+        "length": 2
+      }
+    ]
+  }
+}

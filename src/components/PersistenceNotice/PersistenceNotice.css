@@ -1,0 +1,23 @@
+.persistence-notice {
+  background: var(--color-notice-bg);
+  border: 1px solid var(--color-focus);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  display: grid;
+  gap: var(--space-1);
+  margin-block-end: var(--space-5);
+  padding: var(--space-3);
+}
+
+.persistence-notice__title,
+.persistence-notice p {
+  margin: 0;
+}
+
+.persistence-notice__title {
+  font-size: 1rem;
+}
+
+.persistence-notice p {
+  color: var(--color-text-muted);
+}

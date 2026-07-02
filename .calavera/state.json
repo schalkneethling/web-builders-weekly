@@ -1,0 +1,71 @@
+{
+  "version": 1,
+  "profile": "modern",
+  "integrations": ["editorconfig", "stylelint", "stylelint-standard", "stylelint-baseline"],
+  "files": [".editorconfig", ".calavera/run-if-files.mjs", ".stylelintrc.json"],
+  "managedFiles": [
+    {
+      "path": ".editorconfig",
+      "hash": "3a15156"
+    },
+    {
+      "path": ".calavera/run-if-files.mjs",
+      "hash": "6a23bd1"
+    },
+    {
+      "path": ".stylelintrc.json",
+      "hash": "373d349"
+    }
+  ],
+  "aiArtifacts": [
+    {
+      "type": "skill",
+      "name": "semantic-html",
+      "source": "skills/semantic-html",
+      "path": ".agents/skills/semantic-html",
+      "hash": "236f1dd"
+    },
+    {
+      "type": "skill",
+      "name": "css-coder",
+      "source": "skills/css-coder",
+      "path": ".agents/skills/css-coder",
+      "hash": "913d7a4"
+    },
+    {
+      "type": "skill",
+      "name": "frontend-security",
+      "source": "skills/frontend-security",
+      "path": ".agents/skills/frontend-security",
+      "hash": "89dc4c2"
+    },
+    {
+      "type": "skill",
+      "name": "frontend-testing",
+      "source": "skills/frontend-testing",
+      "path": ".agents/skills/frontend-testing",
+      "hash": "03407df"
+    },
+    {
+      "type": "skill",
+      "name": "more-secure-dependabot-config",
+      "source": "skills/more-secure-dependabot-config",
+      "path": ".agents/skills/more-secure-dependabot-config",
+      "hash": "442567e"
+    },
+    {
+      "type": "skill",
+      "name": "npm-publishing-best-practices",
+      "source": "skills/npm-publishing-best-practices",
+      "path": ".agents/skills/npm-publishing-best-practices",
+      "hash": "6c59bc0"
+    },
+    {
+      "type": "skill",
+      "name": "npm-trusted-publishing-github-workflow",
+      "source": "skills/npm-trusted-publishing-github-workflow",
+      "path": ".agents/skills/npm-trusted-publishing-github-workflow",
+      "hash": "3c80ede"
+    }
+  ]
+}

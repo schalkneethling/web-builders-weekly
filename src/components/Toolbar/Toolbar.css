@@ -1,0 +1,39 @@
+.toolbar {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.toolbar__title {
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.toolbar__group {
+  border: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  margin: 0;
+  padding: 0;
+}
+
+.toolbar__group > button {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  font-weight: 700;
+  min-block-size: 2.75rem;
+  padding-block: var(--space-2);
+  padding-inline: var(--space-3);
+}
+
+.toolbar__group > button:disabled {
+  color: var(--color-text-muted);
+  opacity: 0.7;
+}
+
+.toolbar__group > button:hover:not(:disabled) {
+  border-color: var(--color-primary);
+  color: var(--color-primary-strong);
+}

@@ -1,0 +1,51 @@
+.crossword {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.crossword__topline {
+  align-items: end;
+  display: flex;
+  gap: var(--space-3);
+  justify-content: space-between;
+}
+
+.crossword__title,
+.crossword__direction {
+  margin: 0;
+}
+
+.crossword__title {
+  font-size: 1rem;
+}
+
+.crossword__direction {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-primary-strong);
+  font-family: var(--font-grid);
+  font-size: 0.8125rem;
+  padding-block: var(--space-1);
+  padding-inline: var(--space-2);
+  text-transform: uppercase;
+}
+
+.crossword__grid {
+  aspect-ratio: 1;
+  background: var(--color-blocked);
+  border: 2px solid var(--color-blocked);
+  border-radius: var(--radius-sm);
+  box-shadow: var(--shadow-panel);
+  display: grid;
+  grid-template-rows: repeat(var(--crossword-size), 1fr);
+  overflow: hidden;
+}
+
+.crossword__body {
+  display: contents;
+}
+
+.crossword__row {
+  display: grid;
+  grid-template-columns: repeat(var(--crossword-size), 1fr);
+}
