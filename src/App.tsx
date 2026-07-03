@@ -6,6 +6,7 @@ import { HintPanel } from "./components/HintPanel/HintPanel";
 import { PersistenceNotice } from "./components/PersistenceNotice/PersistenceNotice";
 import { PuzzleHeader } from "./components/PuzzleHeader/PuzzleHeader";
 import { PuzzleArchive } from "./components/PuzzleArchive/PuzzleArchive";
+import { SiteFooter } from "./components/SiteFooter/SiteFooter";
 import { SocialShare } from "./components/SocialShare/SocialShare";
 import { Toolbar } from "./components/Toolbar/Toolbar";
 import { useClueHighlight } from "./hooks/useClueHighlight";
@@ -45,6 +46,7 @@ export function App() {
           <span className="loading-shell__bar" />
           <span className="loading-shell__grid" />
         </div>
+        <SiteFooter />
       </main>
     );
   }
@@ -56,6 +58,7 @@ export function App() {
           <h1 id="error-title">Puzzle unavailable</h1>
           <p>{puzzleState.error ?? "Unable to load this week's crossword."}</p>
         </section>
+        <SiteFooter />
       </main>
     );
   }
@@ -118,6 +121,7 @@ export function App() {
       <p className="visually-hidden" aria-live="polite">
         {puzzleState.announcement}
       </p>
+      <SiteFooter />
     </main>
   );
 }
