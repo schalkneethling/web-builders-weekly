@@ -21,9 +21,6 @@ export function PuzzleHeader({ puzzle }: PuzzleHeaderProps) {
           <h1 className="puzzle-header__title">Crossword</h1>
         </hgroup>
       </div>
-      <div className="puzzle-header__bar">
-        <ThemeSwitch />
-      </div>
       <p className="puzzle-header__meta">
         <span>{puzzle.theme}</span>
         <span>{date}</span>
@@ -31,6 +28,9 @@ export function PuzzleHeader({ puzzle }: PuzzleHeaderProps) {
           {puzzle.size.rows} by {puzzle.size.cols}
         </span>
       </p>
+      <div className="puzzle-header__bar">
+        <ThemeSwitch />
+      </div>
     </header>
   );
 }
