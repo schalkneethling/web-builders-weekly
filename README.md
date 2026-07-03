@@ -129,4 +129,4 @@ Output goes to `dist/`. Deploy that folder to any static host. The production UR
 
 ## License
 
-Private project — not published to npm.
+[MIT](LICENSE)
