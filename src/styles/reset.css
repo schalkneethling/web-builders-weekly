@@ -5,6 +5,7 @@
 }
 
 html {
+  scroll-padding-block-end: max(var(--space-4), env(safe-area-inset-bottom, 0px));
   text-size-adjust: 100%;
 }
 
