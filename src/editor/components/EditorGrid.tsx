@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type RefObject } from "react";
 import {
   findEntryAtCell,
   getCellLetterMap,
@@ -36,10 +36,9 @@ function getCellFromPointerEvent(event: React.PointerEvent): EditorCell | null {
 
 interface EditorGridProps {
   state: EditorState;
-  editingEntryId: string | null;
+  editEntryRef: RefObject<((id: string) => void) | null>;
   onAddEntry: (entry: Omit<EditorWordEntry, "id">) => void;
   onUpdateEntry: (id: string, entry: Omit<EditorWordEntry, "id">) => void;
-  onClearEditingEntry: () => void;
 }
 
 interface DialogState {
@@ -62,18 +61,11 @@ function getNextClueNumber(entries: EditorWordEntry[]): number {
   return Math.max(...entries.map((entry) => entry.number)) + 1;
 }
 
-export function EditorGrid({
-  state,
-  editingEntryId,
-  onAddEntry,
-  onUpdateEntry,
-  onClearEditingEntry,
-}: EditorGridProps) {
+export function EditorGrid({ state, editEntryRef, onAddEntry, onUpdateEntry }: EditorGridProps) {
   const [selectionStart, setSelectionStart] = useState<EditorCell | null>(null);
   const [selectionEnd, setSelectionEnd] = useState<EditorCell | null>(null);
   const dragRef = useRef<{ start: EditorCell; end: EditorCell } | null>(null);
   const [dialogState, setDialogState] = useState<DialogState | null>(null);
-  const [dialogErrors, setDialogErrors] = useState<string[]>([]);
   const dialogRef = useRef<HTMLDialogElement>(null);
   const letters = getCellLetterMap(state.entries);
 
@@ -102,7 +94,6 @@ export function EditorGrid({
       return;
     }
 
-    setDialogErrors([]);
     setDialogState({
       mode: "create",
       row: range.start.row,
@@ -116,7 +107,6 @@ export function EditorGrid({
   }
 
   function openEditDialog(entry: EditorWordEntry) {
-    setDialogErrors([]);
     setDialogState({
       mode: "edit",
       entryId: entry.id,
@@ -130,21 +120,28 @@ export function EditorGrid({
     });
   }
 
+  editEntryRef.current = (id: string) => {
+    const entry = state.entries.find((candidate) => candidate.id === id);
+
+    if (entry) {
+      openEditDialog(entry);
+    }
+  };
+
   function closeDialog() {
     setDialogState(null);
-    setDialogErrors([]);
     setSelectionStart(null);
     setSelectionEnd(null);
   }
 
-  function handleDialogSubmit(values: {
+  function validateDialogValues(values: {
     number: number;
     direction: Direction;
     clue: string;
     answer: string;
-  }) {
+  }): string[] {
     if (!dialogState) {
-      return;
+      return [];
     }
 
     const candidate = {
@@ -169,10 +166,28 @@ export function EditorGrid({
 
     errors.push(...validateEntryPlacement(state, candidate));
 
-    if (errors.length > 0) {
-      setDialogErrors(errors);
+    return errors;
+  }
+
+  function handleDialogSubmit(values: {
+    number: number;
+    direction: Direction;
+    clue: string;
+    answer: string;
+  }) {
+    if (!dialogState) {
       return;
     }
+
+    const candidate = {
+      id: dialogState.entryId,
+      number: values.number,
+      direction: values.direction,
+      row: dialogState.row,
+      col: dialogState.col,
+      answer: values.answer.toUpperCase(),
+      clue: values.clue.trim(),
+    };
 
     if (dialogState.mode === "edit" && dialogState.entryId) {
       onUpdateEntry(dialogState.entryId, candidate);
@@ -242,20 +257,6 @@ export function EditorGrid({
   function isCellSelected(row: number, col: number): boolean {
     return Boolean(selection?.cells.some((cell) => cell.row === row && cell.col === col));
   }
-
-  useEffect(() => {
-    if (!editingEntryId) {
-      return;
-    }
-
-    const entry = state.entries.find((candidate) => candidate.id === editingEntryId);
-
-    if (entry) {
-      openEditDialog(entry);
-    }
-
-    onClearEditingEntry();
-  }, [editingEntryId, onClearEditingEntry, state.entries]);
 
   function getCellNumber(row: number, col: number): number | null {
     const entry = state.entries.find((candidate) => candidate.row === row && candidate.col === col);
@@ -330,14 +331,18 @@ export function EditorGrid({
 
       {dialogState ? (
         <WordEntryDialog
+          key={
+            dialogState.entryId ??
+            `create-${dialogState.row}-${dialogState.col}-${dialogState.direction}`
+          }
           dialogRef={dialogRef}
           direction={dialogState.direction}
-          errors={dialogErrors}
           length={dialogState.length}
           mode={dialogState.mode}
           number={dialogState.number}
           onClose={closeDialog}
           onSubmit={handleDialogSubmit}
+          validate={validateDialogValues}
           values={{
             answer: dialogState.answer,
             clue: dialogState.clue,

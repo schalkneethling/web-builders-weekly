@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useId, useState } from "react";
 import type { Direction } from "../../types/puzzle";
 
 interface WordEntryDialogProps {
@@ -13,7 +13,12 @@ interface WordEntryDialogProps {
     clue: string;
     answer: string;
   };
-  errors: string[];
+  validate: (values: {
+    number: number;
+    direction: Direction;
+    clue: string;
+    answer: string;
+  }) => string[];
   onClose: () => void;
   onSubmit: (values: {
     number: number;
@@ -30,37 +35,47 @@ export function WordEntryDialog({
   direction,
   number,
   values,
-  errors,
+  validate,
   onClose,
   onSubmit,
 }: WordEntryDialogProps) {
+  const titleId = useId();
   const [formNumber, setFormNumber] = useState(number);
   const [formDirection, setFormDirection] = useState<Direction>(direction);
   const [formClue, setFormClue] = useState(values.clue);
   const [formAnswer, setFormAnswer] = useState(values.answer);
+  const [submitAttempted, setSubmitAttempted] = useState(false);
 
-  useEffect(() => {
-    setFormNumber(number);
-    setFormDirection(direction);
-    setFormClue(values.clue);
-    setFormAnswer(values.answer);
-  }, [direction, number, values.answer, values.clue]);
+  const formValues = {
+    number: formNumber,
+    direction: formDirection,
+    clue: formClue,
+    answer: formAnswer,
+  };
+  const errors = submitAttempted ? validate(formValues) : [];
 
   function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    onSubmit({
-      number: formNumber,
-      direction: formDirection,
-      clue: formClue,
-      answer: formAnswer,
-    });
+    const validationErrors = validate(formValues);
+
+    if (validationErrors.length > 0) {
+      setSubmitAttempted(true);
+      return;
+    }
+
+    onSubmit(formValues);
   }
 
   return (
-    <dialog className="editor-word-dialog" onCancel={onClose} ref={dialogRef}>
+    <dialog
+      aria-labelledby={titleId}
+      className="editor-word-dialog"
+      onCancel={onClose}
+      ref={dialogRef}
+    >
       <form className="editor-word-dialog__form" method="dialog" onSubmit={handleSubmit}>
         <header className="editor-word-dialog__header">
-          <h2>{mode === "create" ? "Add word" : "Edit word"}</h2>
+          <h2 id={titleId}>{mode === "create" ? "Add word" : "Edit word"}</h2>
           <p>
             {length} cell{length === 1 ? "" : "s"} selected
           </p>

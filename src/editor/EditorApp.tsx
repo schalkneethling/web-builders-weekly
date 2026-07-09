@@ -1,3 +1,4 @@
+import { useRef } from "react";
 import { SiteFooter } from "../components/SiteFooter/SiteFooter";
 import { ClueEditor } from "./components/ClueEditor";
 import { EditorGrid } from "./components/EditorGrid";
@@ -7,6 +8,7 @@ import { useEditorDraft } from "./useEditorDraft";
 
 export function EditorApp() {
   const editor = useEditorDraft();
+  const editEntryRef = useRef<((id: string) => void) | null>(null);
 
   return (
     <main className="editor-app" id="main-content" tabIndex={-1}>
@@ -30,9 +32,8 @@ export function EditorApp() {
       <div className="editor-app__workspace">
         <div className="editor-app__primary">
           <EditorGrid
-            editingEntryId={editor.editingEntryId}
+            editEntryRef={editEntryRef}
             onAddEntry={editor.addEntry}
-            onClearEditingEntry={editor.clearEditingEntry}
             onUpdateEntry={editor.updateEntry}
             state={editor.state}
           />
@@ -40,7 +41,7 @@ export function EditorApp() {
         </div>
 
         <ClueEditor
-          onEditEntry={editor.startEditingEntry}
+          onEditEntry={(id) => editEntryRef.current?.(id)}
           onRemoveEntry={editor.removeEntry}
           state={editor.state}
         />

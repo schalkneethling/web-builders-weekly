@@ -1,4 +1,4 @@
-import { useRef, useState } from "react";
+import { useId, useState } from "react";
 import type { EditorState } from "../types";
 
 interface EditorToolbarProps {
@@ -34,7 +34,7 @@ export function EditorToolbar({
   onSetMeta,
   storedPreviewId,
 }: EditorToolbarProps) {
-  const fileInputRef = useRef<HTMLInputElement>(null);
+  const fileInputId = useId();
   const [copyState, setCopyState] = useState<"idle" | "copied">("idle");
 
   async function handleCopyIndexSnippet() {
@@ -105,16 +105,13 @@ export function EditorToolbar({
         <button className="editor-button" onClick={onNew} type="button">
           New puzzle
         </button>
-        <button
-          className="editor-button"
-          onClick={() => fileInputRef.current?.click()}
-          type="button"
-        >
+        <label className="editor-button" htmlFor={fileInputId}>
           Import
-        </button>
+        </label>
         <input
           accept=".json,.wbw,text/plain,application/json"
           className="visually-hidden"
+          id={fileInputId}
           onChange={(event) => {
             const file = event.target.files?.[0];
 
@@ -124,7 +121,6 @@ export function EditorToolbar({
 
             event.target.value = "";
           }}
-          ref={fileInputRef}
           type="file"
         />
         {state.isReady ? (

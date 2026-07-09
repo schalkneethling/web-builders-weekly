@@ -32,7 +32,6 @@ function downloadFile(filename: string, contents: string, mimeType: string) {
 export function useEditorDraft(initialState = createEmptyEditorState()) {
   const [state, setState] = useState<EditorState>(initialState);
   const [compileResult, setCompileResult] = useState(() => compileEditorState(initialState));
-  const [editingEntryId, setEditingEntryId] = useState<string | null>(null);
   const [storedPreviewId, setStoredPreviewId] = useState(() => getStoredPreviewId());
 
   function refreshStoredPreviewId() {
@@ -185,14 +184,6 @@ export function useEditorDraft(initialState = createEmptyEditorState()) {
     void navigator.clipboard.writeText(snippet);
   }
 
-  function startEditingEntry(id: string) {
-    setEditingEntryId(id);
-  }
-
-  function clearEditingEntry() {
-    setEditingEntryId(null);
-  }
-
   function previewInPlayer() {
     if (!compileResult.puzzle) {
       return;
@@ -221,7 +212,6 @@ export function useEditorDraft(initialState = createEmptyEditorState()) {
   return {
     state,
     compileResult,
-    editingEntryId,
     storedPreviewId,
     addEntry,
     updateEntry,
@@ -231,8 +221,6 @@ export function useEditorDraft(initialState = createEmptyEditorState()) {
     resetDraft,
     setMeta,
     setGridSize,
-    startEditingEntry,
-    clearEditingEntry,
     exportPuzzleJson,
     exportSource,
     copyIndexSnippet,
