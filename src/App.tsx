@@ -8,6 +8,7 @@ import { PuzzleHeader } from "./components/PuzzleHeader/PuzzleHeader";
 import { PuzzleArchive } from "./components/PuzzleArchive/PuzzleArchive";
 import { SiteFooter } from "./components/SiteFooter/SiteFooter";
 import { SocialShare } from "./components/SocialShare/SocialShare";
+import { MobileClueBar } from "./components/MobileClueBar/MobileClueBar";
 import { Toolbar } from "./components/Toolbar/Toolbar";
 import { useClueHighlight } from "./hooks/useClueHighlight";
 import { usePuzzle } from "./hooks/usePuzzle";
@@ -121,6 +122,7 @@ export function App() {
       <p className="visually-hidden" aria-live="polite">
         {puzzleState.announcement}
       </p>
+      <MobileClueBar activeClue={activeClue} onNextClue={puzzleState.actions.nextClue} />
       <SiteFooter />
     </main>
   );

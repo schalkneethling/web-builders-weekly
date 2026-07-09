@@ -1,0 +1,57 @@
+.mobile-clue-bar {
+  align-items: center;
+  background: var(--color-primary-soft);
+  border: 0;
+  border-block-start: 1px solid var(--color-border);
+  color: var(--color-text);
+  display: none;
+  gap: var(--space-2);
+  grid-template-columns: auto 1fr auto;
+  inline-size: 100%;
+  inset-block-end: 0;
+  inset-block-start: auto;
+  inset-inline: 0;
+  margin: 0;
+  max-inline-size: none;
+  padding-block: var(--space-3);
+  padding-block-end: calc(var(--space-3) + env(safe-area-inset-bottom, 0px));
+  padding-inline: var(--space-2);
+  position: fixed;
+  z-index: 2;
+}
+
+.mobile-clue-bar:popover-open {
+  display: grid;
+  inset-block-end: 0;
+  inset-block-start: auto;
+  position: fixed;
+}
+
+.mobile-clue-bar__nav {
+  background: transparent;
+  block-size: 2.75rem;
+  border-radius: var(--radius-sm);
+  color: var(--color-primary-strong);
+  cursor: pointer;
+  display: grid;
+  flex-shrink: 0;
+  inline-size: 2.75rem;
+  place-items: center;
+}
+
+.mobile-clue-bar__nav:active {
+  background: light-dark(rgb(15 107 143 / 0.12), rgb(127 216 255 / 0.12));
+}
+
+.mobile-clue-bar__text {
+  font-size: 0.9375rem;
+  line-height: 1.35;
+  margin: 0;
+  text-align: center;
+}
+
+@media (width >= 56rem) {
+  .mobile-clue-bar {
+    display: none !important;
+  }
+}

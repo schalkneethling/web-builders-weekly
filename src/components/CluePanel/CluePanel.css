@@ -48,6 +48,12 @@
   gap: var(--space-4);
 }
 
+@media (width < 56rem) {
+  .clue-panel__active {
+    display: none;
+  }
+}
+
 @media (width >= 56rem) {
   .clue-panel {
     inset-block-start: var(--space-5);

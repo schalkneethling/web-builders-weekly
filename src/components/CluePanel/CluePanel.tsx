@@ -1,3 +1,4 @@
+import { useMobileLayout } from "../../hooks/useMobileLayout";
 import type { ActiveClue, Puzzle } from "../../types/puzzle";
 import { ClueList } from "./ClueList";
 
@@ -8,13 +9,15 @@ interface CluePanelProps {
 }
 
 export function CluePanel({ activeClue, onFocusClue, puzzle }: CluePanelProps) {
+  const isMobile = useMobileLayout();
+
   return (
     <aside className="clue-panel" aria-labelledby="clue-panel-title">
       <div className="clue-panel__header">
         <h2 className="clue-panel__title" id="clue-panel-title">
           Clues
         </h2>
-        <p className="clue-panel__active" id="active-clue">
+        <p className="clue-panel__active" id={isMobile ? undefined : "active-clue"}>
           {activeClue
             ? `${activeClue.clue.number} ${activeClue.direction}: ${activeClue.clue.clue}`
             : "Choose a cell to hear its clue."}

@@ -1,4 +1,5 @@
 import { useEffect, useRef } from "react";
+import { useMobileLayout } from "../../hooks/useMobileLayout";
 import type { ActiveClue, Clue, Direction } from "../../types/puzzle";
 
 interface ClueListProps {
@@ -10,10 +11,15 @@ interface ClueListProps {
 
 export function ClueList({ activeClue, clues, direction, onFocusClue }: ClueListProps) {
   const activeRef = useRef<HTMLButtonElement>(null);
+  const isMobile = useMobileLayout();
 
   useEffect(() => {
+    if (isMobile) {
+      return;
+    }
+
     activeRef.current?.scrollIntoView({ block: "nearest" });
-  }, [activeClue]);
+  }, [activeClue, isMobile]);
 
   return (
     <section className="clue-list" aria-labelledby={`${direction}-heading`}>

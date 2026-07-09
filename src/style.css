@@ -7,6 +7,7 @@
 @import "./components/CrosswordGrid/Cell.css";
 @import "./components/CluePanel/CluePanel.css";
 @import "./components/CluePanel/ClueList.css";
+@import "./components/MobileClueBar/MobileClueBar.css";
 @import "./components/AppPopover/AppPopover.css";
 @import "./components/ConfirmActionButton/ConfirmActionButton.css";
 @import "./components/HintPanel/HintPanel.css";
