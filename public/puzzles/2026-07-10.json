@@ -1,0 +1,298 @@
+{
+  "id": "2026-07-10",
+  "date": "2026-07-10",
+  "theme": "Web Platform Friday (2)",
+  "size": {
+    "rows": 7,
+    "cols": 7
+  },
+  "grid": [
+    [
+      {
+        "type": "letter",
+        "answer": "D",
+        "clueNumber": 1
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "A",
+        "clueNumber": 2
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "G"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "B"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "O",
+        "clueNumber": 3
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "B",
+        "clueNumber": 4
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "letter",
+        "answer": "K"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "V",
+        "clueNumber": 5
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "M",
+        "clueNumber": 6
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "R",
+        "clueNumber": 7
+      },
+      {
+        "type": "letter",
+        "answer": "C"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "I",
+        "clueNumber": 8
+      },
+      {
+        "type": "letter",
+        "answer": "F"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "M"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "H"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "P"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "M"
+      },
+      {
+        "type": "blocked"
+      }
+    ]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "clue": "Enables the creation of native modals (6)",
+        "answer": "DIALOG",
+        "row": 0,
+        "col": 0,
+        "length": 6
+      },
+      {
+        "number": 4,
+        "clue": "Like height, but logical (5)",
+        "answer": "BLOCK",
+        "row": 2,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 5,
+        "clue": "Inserts the value of a custom property (3)",
+        "answer": "VAR",
+        "row": 3,
+        "col": 0,
+        "length": 3
+      },
+      {
+        "number": 8,
+        "clue": "Allows embedding the content of a URL into the current page (7)",
+        "answer": "IFRAMEH",
+        "row": 5,
+        "col": 0,
+        "length": 7
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Like while, but executes at least once (2)",
+        "answer": "DO",
+        "row": 0,
+        "col": 0,
+        "length": 2
+      },
+      {
+        "number": 2,
+        "clue": "Represents an abbreviation or acronym. (4)",
+        "answer": "ABBR",
+        "row": 0,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 3,
+        "clue": "OKLab's cylindrical cousin (5)",
+        "answer": "OKLCH",
+        "row": 1,
+        "col": 6,
+        "length": 5
+      },
+      {
+        "number": 5,
+        "clue": "An operator that evaluates the given expression and then returns undefined (4)",
+        "answer": "VOID",
+        "row": 3,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 6,
+        "clue": "Rhymes with nap, but used on Arrays (3)",
+        "answer": "MAP",
+        "row": 4,
+        "col": 3,
+        "length": 3
+      },
+      {
+        "number": 7,
+        "clue": "A relative unit of measurement that is based on the font size of the root element (3)",
+        "answer": "REM",
+        "row": 4,
+        "col": 5,
+        "length": 3
+      }
+    ]
+  }
+}

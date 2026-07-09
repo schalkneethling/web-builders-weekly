@@ -12,6 +12,7 @@ import { MobileClueBar } from "./components/MobileClueBar/MobileClueBar";
 import { Toolbar } from "./components/Toolbar/Toolbar";
 import { useClueHighlight } from "./hooks/useClueHighlight";
 import { usePuzzle } from "./hooks/usePuzzle";
+import { isPreviewMode } from "./utils/puzzlePreview";
 
 export function App() {
   const puzzleState = usePuzzle();
@@ -67,7 +68,9 @@ export function App() {
   return (
     <main className="app" id="main-content" tabIndex={-1}>
       <PuzzleHeader puzzle={puzzleState.puzzle} />
-      <PersistenceNotice canPersistProgress={puzzleState.canPersistProgress} />
+      {isPreviewMode() ? null : (
+        <PersistenceNotice canPersistProgress={puzzleState.canPersistProgress} />
+      )}
       <CompletionBanner
         key={String(puzzleState.isComplete)}
         celebrate={shouldCelebrateCompletion}

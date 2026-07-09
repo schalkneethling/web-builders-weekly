@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content"
+    />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="description" content="Compose crossword puzzles for Web Builders Weekly." />
+    <script>
+      (() => {
+        const key = "web-builders-weekly:theme-preference:v1";
+        const query = "(prefers-color-scheme: dark)";
+        const root = document.documentElement;
+        const systemTheme = matchMedia(query).matches ? "dark" : "light";
+
+        try {
+          const storedPreference = localStorage.getItem(key);
+          const preference = ["system", "light", "dark"].includes(storedPreference)
+            ? storedPreference
+            : "system";
+
+          root.dataset.themePreference = preference;
+          root.dataset.theme = preference === "system" ? systemTheme : preference;
+        } catch {
+          root.dataset.themePreference = "system";
+          root.dataset.theme = systemTheme;
+        }
+      })();
+    </script>
+    <link rel="stylesheet" href="/src/style.css" />
+    <link rel="stylesheet" href="/src/editor/editor.css" />
+    <title>Puzzle Editor · Web Builders Weekly</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/editor/main.tsx"></script>
+  </body>
+</html>

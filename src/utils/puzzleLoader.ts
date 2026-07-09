@@ -1,4 +1,5 @@
 import type { Puzzle, PuzzleBundle, PuzzleIndex } from "../types/puzzle";
+import { isPreviewMode, readPuzzlePreview } from "./puzzlePreview";
 import { resolveLatestPublishedPuzzleId } from "./puzzleSchedule";
 
 async function fetchJson<T>(path: string): Promise<T> {
@@ -11,11 +12,39 @@ async function fetchJson<T>(path: string): Promise<T> {
   return response.json() as Promise<T>;
 }
 
+function buildPreviewBundle(puzzle: Puzzle, index: PuzzleIndex): PuzzleBundle {
+  const publishedPuzzles = index.puzzles.filter((entry) => entry.id !== puzzle.id);
+
+  return {
+    index: {
+      latest: puzzle.id,
+      puzzles: [
+        {
+          id: puzzle.id,
+          date: puzzle.date,
+          theme: puzzle.theme,
+        },
+        ...publishedPuzzles,
+      ],
+    },
+    puzzle,
+  };
+}
+
 export async function loadPuzzleBundleFromUrl(
   search = window.location.search,
 ): Promise<PuzzleBundle> {
+  const params = new URLSearchParams(search);
+  const requestedId = params.get("puzzle");
+  const previewPuzzle =
+    isPreviewMode(search) && requestedId ? readPuzzlePreview(requestedId) : null;
+
+  if (previewPuzzle) {
+    const index = await fetchJson<PuzzleIndex>("/puzzles/index.json");
+    return buildPreviewBundle(previewPuzzle, index);
+  }
+
   const index = await fetchJson<PuzzleIndex>("/puzzles/index.json");
-  const requestedId = new URLSearchParams(search).get("puzzle");
   const puzzleId = requestedId ?? resolveLatestPublishedPuzzleId(index);
 
   if (!puzzleId) {
