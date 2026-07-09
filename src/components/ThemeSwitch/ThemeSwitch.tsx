@@ -42,11 +42,16 @@ export function ThemeSwitch() {
     <fieldset
       className="theme-switch"
       aria-describedby={storageNoteId}
+      data-active-index={themeIndex}
       style={{ "--theme-index": themeIndex } as CSSProperties}
     >
       <legend className="theme-switch__legend visually-hidden">Color theme</legend>
       <div className="theme-switch__track">
         <span className="theme-switch__thumb" aria-hidden="true">
+          <MonitorCog
+            className="theme-switch__thumb-icon theme-switch__thumb-icon--system"
+            size={18}
+          />
           <Sun className="theme-switch__thumb-icon theme-switch__thumb-icon--sun" size={18} />
           <Moon className="theme-switch__thumb-icon theme-switch__thumb-icon--moon" size={18} />
         </span>

@@ -9,6 +9,7 @@
     "preview": "vp preview",
     "test": "vp test",
     "validate-puzzle": "node scripts/validate-puzzle.mjs",
+    "compile-puzzle": "bun scripts/compile-puzzle.ts",
     "prepare": "vp config",
     "lint": "node .calavera/run-if-files.mjs \"CSS\" \"css,scss\" -- stylelint \"**/*.{css,scss}\"",
     "lint:fix": "node .calavera/run-if-files.mjs \"CSS\" \"css,scss\" -- stylelint \"**/*.{css,scss}\" --fix",

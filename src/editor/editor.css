@@ -1,0 +1,402 @@
+.editor-app {
+  display: grid;
+  gap: var(--space-5);
+  margin-inline: auto;
+  max-inline-size: 72rem;
+  padding-block: var(--space-5);
+  padding-inline: var(--space-4);
+}
+
+.editor-app__workspace {
+  align-items: start;
+  display: grid;
+  gap: var(--space-5);
+}
+
+.editor-app__primary {
+  align-content: start;
+  align-items: start;
+  display: grid;
+  gap: var(--space-4);
+}
+
+.editor-toolbar {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.editor-toolbar__eyebrow {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.editor-toolbar__lede,
+.editor-toolbar__intro p {
+  color: var(--color-text-muted);
+  max-inline-size: 42rem;
+}
+
+.editor-toolbar h1 {
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  line-height: 1.1;
+}
+
+.editor-toolbar__meta {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
+}
+
+.editor-field {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.editor-field--wide {
+  grid-column: 1 / -1;
+}
+
+.editor-field span {
+  color: var(--color-text-muted);
+  font-size: 0.875rem;
+}
+
+.editor-field input,
+.editor-clues__input {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  font: inherit;
+  padding-block: var(--space-2);
+  padding-inline: var(--space-3);
+}
+
+.editor-toolbar__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.editor-button {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  cursor: pointer;
+  font: inherit;
+  padding-block: var(--space-2);
+  padding-inline: var(--space-3);
+  text-decoration: none;
+}
+
+.editor-button:hover,
+.editor-button:focus-visible {
+  border-color: var(--color-primary);
+}
+
+.editor-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.editor-button--primary {
+  background: var(--color-primary-soft);
+  border-color: var(--color-primary);
+  color: var(--color-primary-strong);
+}
+
+.editor-button--link {
+  display: inline-flex;
+  align-items: center;
+}
+
+.editor-grid-panel,
+.editor-clues,
+.editor-validation {
+  align-self: start;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-panel);
+  padding: var(--space-4);
+}
+
+.editor-grid-panel__header,
+.editor-clues__header {
+  display: grid;
+  gap: var(--space-1);
+  margin-block-end: var(--space-4);
+}
+
+.editor-grid-panel__header p,
+.editor-clues__header p {
+  color: var(--color-text-muted);
+}
+
+.editor-grid-wrap {
+  display: grid;
+  inline-size: fit-content;
+  justify-content: start;
+  max-inline-size: 100%;
+  position: relative;
+  touch-action: none;
+  user-select: none;
+}
+
+.editor-grid {
+  aspect-ratio: 1;
+  border-collapse: collapse;
+  display: grid;
+  grid-template-rows: repeat(var(--editor-grid-size), 1fr);
+  inline-size: calc(var(--editor-grid-size) * 2.75rem);
+  max-inline-size: 100%;
+}
+
+.editor-grid__body {
+  display: contents;
+}
+
+.editor-grid__row {
+  display: grid;
+  grid-template-columns: repeat(var(--editor-grid-size), 1fr);
+}
+
+.editor-grid__cell {
+  border: 1px solid var(--color-border);
+  display: grid;
+  min-block-size: 0;
+  min-inline-size: 0;
+  padding: 0;
+  place-items: center;
+  position: relative;
+}
+
+.editor-grid__cell--blocked {
+  background: var(--color-blocked);
+}
+
+.editor-grid__cell--empty {
+  background: var(--color-surface);
+}
+
+.editor-grid__cell--filled {
+  background: var(--color-primary-soft);
+}
+
+.editor-grid__cell--selected {
+  background: color-mix(in srgb, var(--color-primary) 28%, var(--color-surface));
+  outline: 2px solid var(--color-primary);
+  outline-offset: -2px;
+}
+
+.editor-grid__cell--active {
+  outline: 2px solid var(--color-focus);
+  outline-offset: -2px;
+}
+
+.editor-grid__button {
+  align-items: center;
+  background: transparent;
+  block-size: 100%;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: grid;
+  font-family: var(--font-grid);
+  inline-size: 100%;
+  justify-items: center;
+  min-block-size: 0;
+  min-inline-size: 0;
+  padding: 0;
+  position: relative;
+}
+
+.editor-grid__number {
+  font-size: 0.625rem;
+  inset-block-start: 0.125rem;
+  inset-inline-start: 0.1875rem;
+  line-height: 1;
+  position: absolute;
+}
+
+.editor-grid__letter {
+  font-size: 1.125rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.editor-grid__input {
+  display: none;
+}
+
+.editor-clues__empty {
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.editor-clues__text {
+  color: var(--color-text);
+  margin: 0;
+}
+
+.editor-clues__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.editor-word-dialog {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-panel);
+  color: var(--color-text);
+  inline-size: min(100% - 2rem, 28rem);
+  margin: auto;
+  max-block-size: calc(100svb - 2rem);
+  overflow: auto;
+  padding: 0;
+}
+
+.editor-word-dialog::backdrop {
+  background: rgb(0 0 0 / 45%);
+}
+
+.editor-word-dialog__form {
+  display: grid;
+  gap: var(--space-4);
+  padding: var(--space-4);
+}
+
+.editor-word-dialog__header {
+  display: grid;
+  gap: var(--space-1);
+}
+
+.editor-word-dialog__header p {
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.editor-word-dialog__fields {
+  display: grid;
+  gap: var(--space-3);
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.editor-word-dialog__errors {
+  color: var(--color-incorrect);
+  display: grid;
+  gap: var(--space-1);
+  margin: 0;
+  padding-inline-start: 1.25rem;
+}
+
+.editor-word-dialog__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  justify-content: end;
+}
+
+.editor-field select,
+.editor-field textarea {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  color: var(--color-text);
+  font: inherit;
+  padding-block: var(--space-2);
+  padding-inline: var(--space-3);
+}
+
+.editor-field textarea {
+  min-block-size: 4rem;
+  resize: vertical;
+}
+
+.editor-clues {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.editor-clues__list {
+  display: grid;
+  gap: var(--space-3);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.editor-clues__item {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.editor-clues__label {
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.editor-clues__number {
+  font-weight: 700;
+}
+
+.editor-clues__answer {
+  color: var(--color-text-muted);
+  font-family: var(--font-grid);
+  font-size: 0.875rem;
+}
+
+.editor-clues__input {
+  inline-size: 100%;
+  min-block-size: 4rem;
+  resize: vertical;
+}
+
+.editor-validation {
+  display: grid;
+  gap: var(--space-3);
+  grid-auto-rows: max-content;
+}
+
+.editor-validation h2,
+.editor-validation h3,
+.editor-validation__group {
+  margin: 0;
+}
+
+.editor-validation__group {
+  display: grid;
+  gap: var(--space-2);
+}
+
+.editor-validation__ok {
+  color: var(--color-correct);
+}
+
+.editor-validation__list {
+  display: grid;
+  gap: var(--space-2);
+  margin: 0;
+  padding-inline-start: 1.25rem;
+}
+
+.editor-validation__list--errors {
+  color: var(--color-incorrect);
+}
+
+.editor-validation__list--warnings {
+  color: var(--color-text-muted);
+}
+
+@media (width >= 64rem) {
+  .editor-app__workspace {
+    grid-template-columns: minmax(0, 1.1fr) minmax(18rem, 0.9fr);
+  }
+}

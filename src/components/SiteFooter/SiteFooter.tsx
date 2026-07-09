@@ -13,6 +13,8 @@ export function SiteFooter() {
         <a href={SITE_LINKS.suggestClue} rel="noopener noreferrer" target="_blank">
           Suggest a clue
         </a>
+        <span aria-hidden="true"> | </span>
+        <a href="/editor.html">Puzzle editor</a>
       </p>
     </footer>
   );

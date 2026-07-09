@@ -45,28 +45,25 @@
 
 .theme-switch__thumb-icon {
   grid-area: 1 / 1;
+  opacity: 0;
+  transform: rotate(55deg) scale(0.55);
   transform-origin: center;
   transition:
     opacity 180ms ease,
     transform 220ms ease;
 }
 
-:root[data-theme="light"] .theme-switch__thumb-icon--sun {
+.theme-switch[data-active-index="0"] .theme-switch__thumb-icon--system {
   opacity: 1;
   transform: rotate(0deg) scale(1);
 }
 
-:root[data-theme="light"] .theme-switch__thumb-icon--moon {
-  opacity: 0;
-  transform: rotate(-55deg) scale(0.55);
+.theme-switch[data-active-index="1"] .theme-switch__thumb-icon--sun {
+  opacity: 1;
+  transform: rotate(0deg) scale(1);
 }
 
-:root[data-theme="dark"] .theme-switch__thumb-icon--sun {
-  opacity: 0;
-  transform: rotate(55deg) scale(0.55);
-}
-
-:root[data-theme="dark"] .theme-switch__thumb-icon--moon {
+.theme-switch[data-active-index="2"] .theme-switch__thumb-icon--moon {
   opacity: 1;
   transform: rotate(0deg) scale(1);
 }

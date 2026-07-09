@@ -1,6 +1,7 @@
 body {
   background: var(--color-bg);
   color: var(--color-text);
+  min-block-size: 100svh;
   min-block-size: 100svb;
 }
 
@@ -35,6 +36,7 @@ input:focus-visible,
   background: var(--color-bg);
   inline-size: min(100%, 76rem);
   margin-inline: auto;
+  min-block-size: 100svh;
   min-block-size: 100svb;
   padding: var(--space-5);
 }
@@ -108,6 +110,7 @@ input:focus-visible,
 @media (width < 56rem) {
   .app {
     padding: var(--space-3);
+    padding-block-end: calc(var(--space-3) + 4.75rem + env(safe-area-inset-bottom, 0px));
   }
 
   .app__workspace {

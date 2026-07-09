@@ -1,7 +1,7 @@
 import { ChevronLeft, ChevronRight } from "lucide-react";
-import { useEffect, useRef } from "react";
 import type { ActiveClue } from "../../types/puzzle";
 import { useMobileLayout } from "../../hooks/useMobileLayout";
+import { useVisualViewportInset } from "../../hooks/useVisualViewportInset";
 
 interface MobileClueBarProps {
   activeClue: ActiveClue | null;
@@ -13,28 +13,9 @@ function formatClueText(activeClue: ActiveClue) {
 }
 
 export function MobileClueBar({ activeClue, onNextClue }: MobileClueBarProps) {
-  const popoverRef = useRef<HTMLDivElement>(null);
   const isMobile = useMobileLayout();
 
-  useEffect(() => {
-    const popover = popoverRef.current;
-
-    if (!popover) {
-      return;
-    }
-
-    if (!isMobile || !activeClue) {
-      if (popover.matches(":popover-open")) {
-        popover.hidePopover();
-      }
-
-      return;
-    }
-
-    if (!popover.matches(":popover-open")) {
-      popover.showPopover();
-    }
-  }, [activeClue, isMobile]);
+  useVisualViewportInset();
 
   if (!isMobile) {
     return null;
@@ -43,10 +24,10 @@ export function MobileClueBar({ activeClue, onNextClue }: MobileClueBarProps) {
   return (
     <div
       aria-labelledby="mobile-clue-bar-label"
-      className="mobile-clue-bar"
+      className={["mobile-clue-bar", activeClue ? "mobile-clue-bar--visible" : ""]
+        .filter(Boolean)
+        .join(" ")}
       id="active-clue"
-      popover="manual"
-      ref={popoverRef}
       role="region"
     >
       <button className="mobile-clue-bar__nav" onClick={() => onNextClue(-1)} type="button">

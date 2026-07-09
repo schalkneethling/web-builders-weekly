@@ -23,6 +23,7 @@ import {
   isPuzzleComplete,
 } from "../utils/gridHelpers";
 import { loadPuzzleBundleFromUrl } from "../utils/puzzleLoader";
+import { isPreviewMode } from "../utils/puzzlePreview";
 import {
   canUsePuzzleProgressStorage,
   clearAllPuzzleProgress,
@@ -388,7 +389,7 @@ export function usePuzzle() {
         if (isMounted) {
           const storage = getPuzzleProgressStorage();
 
-          setCanPersistProgress(canUsePuzzleProgressStorage(storage));
+          setCanPersistProgress(isPreviewMode() ? false : canUsePuzzleProgressStorage(storage));
           dispatch({
             type: "LOAD_PUZZLE",
             puzzle: bundle.puzzle,
@@ -415,7 +416,7 @@ export function usePuzzle() {
   }, []);
 
   useEffect(() => {
-    if (!state.puzzle || state.skipNextPersist) {
+    if (!state.puzzle || state.skipNextPersist || isPreviewMode()) {
       return;
     }
 
