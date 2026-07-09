@@ -28,7 +28,6 @@
 }
 
 .mobile-clue-bar__nav {
-  align-items: center;
   background: transparent;
   block-size: 2.75rem;
   border-radius: var(--radius-sm);
