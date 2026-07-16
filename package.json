@@ -30,7 +30,7 @@
     "stylelint-order": "^8.1.1",
     "stylelint-plugin-logical-css": "^2.1.0",
     "stylelint-plugin-use-baseline": "^1.4.4",
-    "typescript": "~6.0.2",
+    "typescript": "~7.0.2",
     "vite": "npm:@voidzero-dev/vite-plus-core@latest",
     "vite-plus": "latest"
   },
