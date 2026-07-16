@@ -1,0 +1,331 @@
+{
+  "id": "2026-07-17",
+  "date": "2026-07-17",
+  "theme": "Arrays",
+  "size": {
+    "rows": 8,
+    "cols": 8
+  },
+  "grid": [
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "S",
+        "clueNumber": 1
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "F",
+        "clueNumber": 2
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "E",
+        "clueNumber": 3
+      },
+      {
+        "type": "letter",
+        "answer": "R",
+        "clueNumber": 4
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "H"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "V"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "P",
+        "clueNumber": 5
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "F"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "U"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "P"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "Y"
+      },
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "A",
+        "clueNumber": 6
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "T",
+        "clueNumber": 7
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      }
+    ]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 2,
+        "clue": "Returns a new array with only items that pass the validation of a provided function (6)",
+        "answer": "FILTER",
+        "row": 1,
+        "col": 0,
+        "length": 6
+      },
+      {
+        "number": 7,
+        "clue": "Like sorted, but non-destructive (8)",
+        "answer": "TOSORTED",
+        "row": 7,
+        "col": 0,
+        "length": 8
+      }
+    ],
+    "down": [
+      {
+        "number": 1,
+        "clue": "Like pop, but the first element (5)",
+        "answer": "SHIFT",
+        "row": 0,
+        "col": 7,
+        "length": 5
+      },
+      {
+        "number": 2,
+        "clue": "Multidimensional to \"single-dimensional\" array (4)",
+        "answer": "FLAT",
+        "row": 1,
+        "col": 0,
+        "length": 4
+      },
+      {
+        "number": 3,
+        "clue": "Execute a function on each item without skipping (5)",
+        "answer": "EVERY",
+        "row": 1,
+        "col": 4,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Start with many, end with one (7)",
+        "answer": "REDUCET",
+        "row": 1,
+        "col": 5,
+        "length": 7
+      },
+      {
+        "number": 5,
+        "clue": "Remove one from the end (3)",
+        "answer": "POP",
+        "row": 3,
+        "col": 2,
+        "length": 3
+      },
+      {
+        "number": 6,
+        "clue": "Takes an integer value and returns the item __ that index (2)",
+        "answer": "AT",
+        "row": 6,
+        "col": 0,
+        "length": 2
+      }
+    ]
+  }
+}
