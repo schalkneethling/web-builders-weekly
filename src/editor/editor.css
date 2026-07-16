@@ -39,7 +39,7 @@
 }
 
 .editor-toolbar h1 {
-  font-size: clamp(1.75rem, 4vw, 2.5rem);
+  font-size: clamp(1.75rem, 4vi, 2.5rem);
   line-height: 1.1;
 }
 
@@ -109,8 +109,8 @@
 }
 
 .editor-button--link {
-  display: inline-flex;
   align-items: center;
+  display: inline-flex;
 }
 
 .editor-grid-panel,
@@ -143,6 +143,7 @@
   max-inline-size: 100%;
   position: relative;
   touch-action: none;
+  /* stylelint-disable-next-line plugin/use-baseline -- Prevent text selection while dragging grid cells */
   user-select: none;
 }
 
@@ -198,7 +199,6 @@
 }
 
 .editor-grid__button {
-  align-items: center;
   background: transparent;
   block-size: 100%;
   border: 0;
@@ -207,10 +207,10 @@
   display: grid;
   font-family: var(--font-grid);
   inline-size: 100%;
-  justify-items: center;
   min-block-size: 0;
   min-inline-size: 0;
   padding: 0;
+  place-items: center;
   position: relative;
 }
 
@@ -262,7 +262,7 @@
 }
 
 .editor-word-dialog::backdrop {
-  background: rgb(0 0 0 / 45%);
+  background: rgb(0 0 0 / 0.45);
 }
 
 .editor-word-dialog__form {
@@ -315,7 +315,8 @@
 
 .editor-field textarea {
   min-block-size: 4rem;
-  resize: vertical;
+  /* stylelint-disable-next-line plugin/use-baseline -- Clue fields benefit from block-axis resize in the editor */
+  resize: block;
 }
 
 .editor-clues {
@@ -356,7 +357,8 @@
 .editor-clues__input {
   inline-size: 100%;
   min-block-size: 4rem;
-  resize: vertical;
+  /* stylelint-disable-next-line plugin/use-baseline -- Clue fields benefit from block-axis resize in the editor */
+  resize: block;
 }
 
 .editor-validation {

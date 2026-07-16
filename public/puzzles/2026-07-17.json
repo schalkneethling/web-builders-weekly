@@ -296,7 +296,7 @@
       },
       {
         "number": 3,
-        "clue": "Execute a function on each item without skipping (5)",
+        "clue": "Returns true only if all items pass a predicate test (5)",
         "answer": "EVERY",
         "row": 1,
         "col": 4,

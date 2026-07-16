@@ -1,7 +1,6 @@
 body {
   background: var(--color-bg);
   color: var(--color-text);
-  min-block-size: 100svh;
   min-block-size: 100svb;
 }
 
@@ -36,7 +35,6 @@ input:focus-visible,
   background: var(--color-bg);
   inline-size: min(100%, 76rem);
   margin-inline: auto;
-  min-block-size: 100svh;
   min-block-size: 100svb;
   padding: var(--space-5);
 }
