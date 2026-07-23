@@ -1,0 +1,365 @@
+{
+  "id": "2026-07-24",
+  "date": "2026-07-24",
+  "theme": "The one about HTML",
+  "size": {
+    "rows": 8,
+    "cols": 8
+  },
+  "grid": [
+    [
+      {
+        "type": "letter",
+        "answer": "D",
+        "clueNumber": 1
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "T",
+        "clueNumber": 2
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "S",
+        "clueNumber": 3
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "U"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "M",
+        "clueNumber": 4
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "T",
+        "clueNumber": 5
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "M"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "M"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "M",
+        "clueNumber": 6
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "K"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "P"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "D",
+        "clueNumber": 7
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "S",
+        "clueNumber": 8
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "R",
+        "clueNumber": 9
+      },
+      {
+        "type": "letter",
+        "answer": "U"
+      },
+      {
+        "type": "letter",
+        "answer": "B"
+      },
+      {
+        "type": "letter",
+        "answer": "Y"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "B",
+        "clueNumber": 10
+      },
+      {
+        "type": "letter",
+        "answer": "U"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "N"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      }
+    ]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "clue": "Provides recommended options for other form controls (8)",
+        "answer": "DATALIST",
+        "row": 0,
+        "col": 0,
+        "length": 8
+      },
+      {
+        "number": 3,
+        "clue": "Specifies multiple media resources for picture, audio, or video elements (6)",
+        "answer": "SOURCE",
+        "row": 1,
+        "col": 2,
+        "length": 6
+      },
+      {
+        "number": 5,
+        "clue": "Represents a specific period; supports a machine-readable datetime attribute (4)",
+        "answer": "TIME",
+        "row": 2,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 6,
+        "clue": "Indicates text highlighted for reference due to its relevance in context (4)",
+        "answer": "MARK",
+        "row": 3,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 7,
+        "clue": "Links content with a machine-readable translation (4)",
+        "answer": "DATA",
+        "row": 4,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "Placeholder inside a web component that you fill with your own markup (4)",
+        "answer": "SLOT",
+        "row": 5,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 9,
+        "clue": "Container for ruby text in East Asian typography annotations (4)",
+        "answer": "RUBY",
+        "row": 6,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 10,
+        "clue": "Links go places; these do things (6)",
+        "answer": "BUTTON",
+        "row": 7,
+        "col": 0,
+        "length": 6
+      }
+    ],
+    "down": [
+      {
+        "number": 2,
+        "clue": "Inert document fragment held for scripts to clone into the live DOM (8)",
+        "answer": "TEMPLATE",
+        "row": 0,
+        "col": 7,
+        "length": 8
+      },
+      {
+        "number": 4,
+        "clue": "Machine-readable metadata about the document (4)",
+        "answer": "META",
+        "row": 2,
+        "col": 0,
+        "length": 4
+      }
+    ]
+  }
+}

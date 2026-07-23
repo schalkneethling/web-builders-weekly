@@ -1,0 +1,26 @@
+id: 2026-07-24
+date: 2026-07-24
+theme: The one about HTML
+
+DATALIST
+..SOURCE
+M.TIME.M
+E.MARK.P
+T.DATA.L
+A.SLOT.A
+..RUBY.T
+BUTTON.E
+
+Across
+1. Provides recommended options for other form controls (8)
+3. Specifies multiple media resources for picture, audio, or video elements (6)
+5. Represents a specific period; supports a machine-readable datetime attribute (4)
+6. Indicates text highlighted for reference due to its relevance in context (4)
+7. Links content with a machine-readable translation (4)
+8. Placeholder inside a web component that you fill with your own markup (4)
+9. Container for ruby text in East Asian typography annotations (4)
+10. Links go places; these do things (6)
+
+Down
+2. Inert document fragment held for scripts to clone into the live DOM (8)
+4. Machine-readable metadata about the document (4)
