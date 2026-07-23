@@ -1,9 +1,8 @@
 .puzzle-header {
-  column-gap: var(--space-2);
   display: grid;
+  gap: var(--space-3) var(--space-2);
   grid-template-columns: minmax(0, 1fr) auto;
   margin-block-end: var(--space-5);
-  row-gap: var(--space-3);
 }
 
 .puzzle-header__identity {

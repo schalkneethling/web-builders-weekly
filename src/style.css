@@ -13,6 +13,7 @@
 @import "./components/HintPanel/HintPanel.css";
 @import "./components/Toolbar/Toolbar.css";
 @import "./components/PersistenceNotice/PersistenceNotice.css";
+@import "./components/AnalyticsConsent/AnalyticsConsent.css";
 @import "./components/CompletionBanner/CompletionBanner.css";
 @import "./components/PuzzleArchive/PuzzleArchive.css";
 @import "./components/SocialShare/SocialShare.css";
