@@ -1,0 +1,364 @@
+{
+  "id": "2026-07-31",
+  "date": "2026-07-31",
+  "theme": "HTML, CSS & JS",
+  "size": {
+    "rows": 8,
+    "cols": 8
+  },
+  "grid": [
+    [
+      {
+        "type": "letter",
+        "answer": "P",
+        "clueNumber": 1
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "M"
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "N",
+        "clueNumber": 2
+      },
+      {
+        "type": "letter",
+        "answer": "U"
+      },
+      {
+        "type": "letter",
+        "answer": "M"
+      },
+      {
+        "type": "letter",
+        "answer": "B"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "R",
+        "clueNumber": 3
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "C",
+        "clueNumber": 4
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "N",
+        "clueNumber": 5
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "H",
+        "clueNumber": 6
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "F"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "G"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "N"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "G",
+        "clueNumber": 7
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "V"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "F",
+        "clueNumber": 8
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "X"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "X"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "M",
+        "clueNumber": 9
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "E",
+        "clueNumber": 10
+      },
+      {
+        "type": "letter",
+        "answer": "V"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "N"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      }
+    ]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "clue": "Future value eventually settled by async code (7)",
+        "answer": "PROMISE",
+        "row": 0,
+        "col": 0,
+        "length": 7
+      },
+      {
+        "number": 2,
+        "clue": "Primitive type for integers and floats alike (6)",
+        "answer": "NUMBER",
+        "row": 1,
+        "col": 2,
+        "length": 6
+      },
+      {
+        "number": 5,
+        "clue": "Interface in the DOM tree; also a JavaScript runtime built on V8 (4)",
+        "answer": "NODE",
+        "row": 2,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 6,
+        "clue": "Hypertext reference attribute on anchor elements (4)",
+        "answer": "HREF",
+        "row": 3,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 7,
+        "clue": "CSS layout module based on rows and columns (4)",
+        "answer": "GRID",
+        "row": 4,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "CSS layout module for one-dimensional distribution (4)",
+        "answer": "FLEX",
+        "row": 5,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 9,
+        "clue": "At-rule for conditional styles by viewport or preference (5)",
+        "answer": "MEDIA",
+        "row": 6,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 10,
+        "clue": "You can add listeners to window or elements to handle these (5)",
+        "answer": "EVENT",
+        "row": 7,
+        "col": 2,
+        "length": 5
+      }
+    ],
+    "down": [
+      {
+        "number": 3,
+        "clue": "Pattern-matching syntax for finding text in strings (5)",
+        "answer": "REGEX",
+        "row": 1,
+        "col": 7,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Bitmap drawing surface element (6)",
+        "answer": "CANVAS",
+        "row": 2,
+        "col": 0,
+        "length": 6
+      }
+    ]
+  }
+}
