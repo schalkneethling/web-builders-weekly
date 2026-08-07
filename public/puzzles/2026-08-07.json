@@ -1,0 +1,364 @@
+{
+  "id": "2026-08-07",
+  "date": "2026-08-07",
+  "theme": "The one about CSS",
+  "size": {
+    "rows": 8,
+    "cols": 8
+  },
+  "grid": [
+    [
+      {
+        "type": "letter",
+        "answer": "C",
+        "clueNumber": 1
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "S",
+        "clueNumber": 2
+      },
+      {
+        "type": "letter",
+        "answer": "M"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "H",
+        "clueNumber": 3
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "S",
+        "clueNumber": 4
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "R",
+        "clueNumber": 5
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "C",
+        "clueNumber": 6
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "V"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "C",
+        "clueNumber": 7
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "P"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "S",
+        "clueNumber": 8
+      },
+      {
+        "type": "letter",
+        "answer": "N"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "P"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "K"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "L",
+        "clueNumber": 9
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "Y"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "Y"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "S",
+        "clueNumber": 10
+      },
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "P"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      }
+    ]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "clue": "The C in CSS; the algorithm that decides which declaration wins (7)",
+        "answer": "CASCADE",
+        "row": 0,
+        "col": 0,
+        "length": 7
+      },
+      {
+        "number": 2,
+        "clue": "scroll-behavior value for gliding to an anchor instead of jumping (6)",
+        "answer": "SMOOTH",
+        "row": 1,
+        "col": 2,
+        "length": 6
+      },
+      {
+        "number": 5,
+        "clue": "Pseudo-class for the document's top; a favorite home for custom properties (4)",
+        "answer": "ROOT",
+        "row": 2,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 6,
+        "clue": "Function for doing math with mixed units like % and px (4)",
+        "answer": "CALC",
+        "row": 3,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 7,
+        "clue": "Overflow value that cuts content off; add -path to shape an element (4)",
+        "answer": "CLIP",
+        "row": 4,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "scroll-___ aligns scrolling to defined points (4)",
+        "answer": "SNAP",
+        "row": 5,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 9,
+        "clue": "At-rule that groups styles into named tiers to tame specificity battles (5)",
+        "answer": "LAYER",
+        "row": 6,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 10,
+        "clue": "At-rule that limits selectors to a chunk of the DOM tree (5)",
+        "answer": "SCOPE",
+        "row": 7,
+        "col": 2,
+        "length": 5
+      }
+    ],
+    "down": [
+      {
+        "number": 3,
+        "clue": "Pseudo-class for a pointer resting over an element (5)",
+        "answer": "HOVER",
+        "row": 1,
+        "col": 7,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Position value that is relative until you scroll, then pinned (6)",
+        "answer": "STICKY",
+        "row": 2,
+        "col": 0,
+        "length": 6
+      }
+    ]
+  }
+}

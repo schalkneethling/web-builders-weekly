@@ -1,0 +1,26 @@
+id: 2026-08-07
+date: 2026-08-07
+theme: The one about CSS
+
+CASCADE.
+..SMOOTH
+S.ROOT.O
+T.CALC.V
+I.CLIP.E
+C.SNAP.R
+K.LAYER.
+Y.SCOPE.
+
+Across
+1. The C in CSS; the algorithm that decides which declaration wins (7)
+2. scroll-behavior value for gliding to an anchor instead of jumping (6)
+5. Pseudo-class for the document's top; a favorite home for custom properties (4)
+6. Function for doing math with mixed units like % and px (4)
+7. Overflow value that cuts content off; add -path to shape an element (4)
+8. scroll-___ aligns scrolling to defined points (4)
+9. At-rule that groups styles into named tiers to tame specificity battles (5)
+10. At-rule that limits selectors to a chunk of the DOM tree (5)
+
+Down
+3. Pseudo-class for a pointer resting over an element (5)
+4. Position value that is relative until you scroll, then pinned (6)
