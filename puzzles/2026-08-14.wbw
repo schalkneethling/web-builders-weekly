@@ -1,0 +1,28 @@
+id: 2026-08-14
+date: 2026-08-14
+theme: The one about JavaScript
+
+PROTOTYPE
+..AWAIT..
+S.THIS.A.
+T.NULL.S.
+A.WEAK.Y.
+C.JSON.N.
+K.BIND.C.
+..THROW..
+CLOSURE..
+
+Across
+1. Object that instances inherit methods from (9)
+2. Keyword that pauses an async function until a Promise settles (5)
+4. Binding for the current execution context inside a function (4)
+6. Primitive that means an intentional missing object (4)
+7. Kind of Map or Set that will not keep objects from being garbage-collected (4)
+8. Data format, and the global with parse and stringify (4)
+9. Function method that returns a new function with this locked in (4)
+10. Statement that raises an exception to the nearest catch (5)
+11. Function that remembers variables from the scope where it was created (7)
+
+Down
+3. Call ___; LIFO list of active function frames (5)
+5. Keyword that makes a function always return a Promise (5)
