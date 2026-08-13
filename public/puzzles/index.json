@@ -1,5 +1,5 @@
 {
-  "latest": "2026-08-07",
+  "latest": "2026-08-14",
   "puzzles": [
     {
       "id": "2026-07-03",
@@ -30,6 +30,11 @@
       "id": "2026-08-07",
       "date": "2026-08-07",
       "theme": "The one about CSS"
+    },
+    {
+      "id": "2026-08-14",
+      "date": "2026-08-14",
+      "theme": "The one about JavaScript"
     }
   ]
 }

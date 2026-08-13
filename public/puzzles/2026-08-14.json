@@ -1,0 +1,433 @@
+{
+  "id": "2026-08-14",
+  "date": "2026-08-14",
+  "theme": "The one about JavaScript",
+  "size": {
+    "rows": 9,
+    "cols": 9
+  },
+  "grid": [
+    [
+      {
+        "type": "letter",
+        "answer": "P",
+        "clueNumber": 1
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "Y"
+      },
+      {
+        "type": "letter",
+        "answer": "P"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "A",
+        "clueNumber": 2
+      },
+      {
+        "type": "letter",
+        "answer": "W"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "S",
+        "clueNumber": 3
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "T",
+        "clueNumber": 4
+      },
+      {
+        "type": "letter",
+        "answer": "H"
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "A",
+        "clueNumber": 5
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "N",
+        "clueNumber": 6
+      },
+      {
+        "type": "letter",
+        "answer": "U"
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "W",
+        "clueNumber": 7
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "K"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "Y"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "J",
+        "clueNumber": 8
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "N"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "N"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "K"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "B",
+        "clueNumber": 9
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "N"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "T",
+        "clueNumber": 10
+      },
+      {
+        "type": "letter",
+        "answer": "H"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "W"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "C",
+        "clueNumber": 11
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "U"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "clue": "Object that instances inherit methods from (9)",
+        "answer": "PROTOTYPE",
+        "row": 0,
+        "col": 0,
+        "length": 9
+      },
+      {
+        "number": 2,
+        "clue": "Keyword that pauses an async function until a Promise settles (5)",
+        "answer": "AWAIT",
+        "row": 1,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Binding for the current execution context inside a function (4)",
+        "answer": "THIS",
+        "row": 2,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 6,
+        "clue": "Primitive that means an intentional missing object (4)",
+        "answer": "NULL",
+        "row": 3,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 7,
+        "clue": "Kind of Map or Set that will not keep objects from being garbage-collected (4)",
+        "answer": "WEAK",
+        "row": 4,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "Data format, and the global with parse and stringify (4)",
+        "answer": "JSON",
+        "row": 5,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 9,
+        "clue": "Function method that returns a new function with this locked in (4)",
+        "answer": "BIND",
+        "row": 6,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 10,
+        "clue": "Statement that raises an exception to the nearest catch (5)",
+        "answer": "THROW",
+        "row": 7,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 11,
+        "clue": "Function that remembers variables from the scope where it was created (7)",
+        "answer": "CLOSURE",
+        "row": 8,
+        "col": 0,
+        "length": 7
+      }
+    ],
+    "down": [
+      {
+        "number": 3,
+        "clue": "Call ___; LIFO list of active function frames (5)",
+        "answer": "STACK",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 5,
+        "clue": "Keyword that makes a function always return a Promise (5)",
+        "answer": "ASYNC",
+        "row": 2,
+        "col": 7,
+        "length": 5
+      }
+    ]
+  }
+}
