@@ -1,0 +1,28 @@
+id: 2026-08-21
+date: 2026-08-21
+theme: The one about HTTP
+
+USERAGENT
+..FETCH..
+C.HOST.H.
+A.HEAD.T.
+C.CORS.T.
+H.POST.P.
+E.ETAG.S.
+..PROXY..
+PAYLOAD..
+
+Across
+1. Request header that traditionally identifies the client software (9)
+2. Browser API for making network requests (5)
+4. Request header naming the server and port being contacted (4)
+6. Method that asks for the same headers as GET, but without a response body (4)
+7. Browser security mechanism that controls cross-origin HTTP requests (4)
+8. Method commonly used to submit a new resource (4)
+9. Response header value used to validate a cached representation (4)
+10. Intermediary that forwards requests between a client and server (5)
+11. The meaningful data carried in a request or response (7)
+
+Down
+3. Stored response that can save a trip across the network (5)
+5. Secure version of HTTP, protected with TLS (5)
