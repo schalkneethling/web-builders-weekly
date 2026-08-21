@@ -1,0 +1,433 @@
+{
+  "id": "2026-08-21",
+  "date": "2026-08-21",
+  "theme": "The one about HTTP",
+  "size": {
+    "rows": 9,
+    "cols": 9
+  },
+  "grid": [
+    [
+      {
+        "type": "letter",
+        "answer": "U",
+        "clueNumber": 1
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "G"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "N"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "F",
+        "clueNumber": 2
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "letter",
+        "answer": "H"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "C",
+        "clueNumber": 3
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "H",
+        "clueNumber": 4
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "H",
+        "clueNumber": 5
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "H",
+        "clueNumber": 6
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "C",
+        "clueNumber": 7
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "H"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "P",
+        "clueNumber": 8
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "P"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "E",
+        "clueNumber": 9
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "G"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "P",
+        "clueNumber": 10
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "X"
+      },
+      {
+        "type": "letter",
+        "answer": "Y"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "P",
+        "clueNumber": 11
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "Y"
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "clue": "Request header that traditionally identifies the client software (9)",
+        "answer": "USERAGENT",
+        "row": 0,
+        "col": 0,
+        "length": 9
+      },
+      {
+        "number": 2,
+        "clue": "Browser API for making network requests (5)",
+        "answer": "FETCH",
+        "row": 1,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "Request header naming the server and port being contacted (4)",
+        "answer": "HOST",
+        "row": 2,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 6,
+        "clue": "Method that asks for the same headers as GET, but without a response body (4)",
+        "answer": "HEAD",
+        "row": 3,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 7,
+        "clue": "Browser security mechanism that controls cross-origin HTTP requests (4)",
+        "answer": "CORS",
+        "row": 4,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "Method commonly used to submit a new resource (4)",
+        "answer": "POST",
+        "row": 5,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 9,
+        "clue": "Response header value used to validate a cached representation (4)",
+        "answer": "ETAG",
+        "row": 6,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 10,
+        "clue": "Intermediary that forwards requests between a client and server (5)",
+        "answer": "PROXY",
+        "row": 7,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 11,
+        "clue": "The meaningful data carried in a request or response (7)",
+        "answer": "PAYLOAD",
+        "row": 8,
+        "col": 0,
+        "length": 7
+      }
+    ],
+    "down": [
+      {
+        "number": 3,
+        "clue": "Stored response that can save a trip across the network (5)",
+        "answer": "CACHE",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 5,
+        "clue": "Secure version of HTTP, protected with TLS (5)",
+        "answer": "HTTPS",
+        "row": 2,
+        "col": 7,
+        "length": 5
+      }
+    ]
+  }
+}
