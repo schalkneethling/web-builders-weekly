@@ -1,0 +1,28 @@
+id: 2026-08-28
+date: 2026-08-28
+theme: Hidden corners of the web platform
+
+CLIPBOARD
+..INERT..
+P.BASE.M.
+A.ATTR.E.
+I.WITH.T.
+N.IDLE.E.
+T.WAKE.R.
+..LOCKS..
+WEAKREF..
+
+Across
+1. Navigator property offering asynchronous read and write access to copied data (9)
+2. Global HTML attribute that makes a subtree non-interactive (5)
+4. HTML element that establishes the document URL used to resolve relative links (4)
+6. CSS function that substitutes an element attribute into a property value (4)
+7. Copying Array method that replaces one indexed value without mutating the original (4)
+8. The blank in request___Callback, for scheduling work during spare main-thread time (4)
+9. Navigator API that can prevent a device's screen from dimming or locking (4)
+10. Navigator API for coordinating access to named resources across tabs and workers (5)
+11. JavaScript constructor that refers to an object without keeping it from garbage collection (7)
+
+Down
+3. CSS Houdini function for images drawn by author-defined code (5)
+5. HTML gauge element for a scalar measurement within a known range (5)

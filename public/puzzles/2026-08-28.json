@@ -1,0 +1,433 @@
+{
+  "id": "2026-08-28",
+  "date": "2026-08-28",
+  "theme": "Hidden corners of the web platform",
+  "size": {
+    "rows": 9,
+    "cols": 9
+  },
+  "grid": [
+    [
+      {
+        "type": "letter",
+        "answer": "C",
+        "clueNumber": 1
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "P"
+      },
+      {
+        "type": "letter",
+        "answer": "B"
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "I",
+        "clueNumber": 2
+      },
+      {
+        "type": "letter",
+        "answer": "N"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "P",
+        "clueNumber": 3
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "B",
+        "clueNumber": 4
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "M",
+        "clueNumber": 5
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "A",
+        "clueNumber": 6
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "W",
+        "clueNumber": 7
+      },
+      {
+        "type": "letter",
+        "answer": "I"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "letter",
+        "answer": "H"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "N"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "I",
+        "clueNumber": 8
+      },
+      {
+        "type": "letter",
+        "answer": "D"
+      },
+      {
+        "type": "letter",
+        "answer": "L"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "T"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "W",
+        "clueNumber": 9
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "K"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "letter",
+        "answer": "L",
+        "clueNumber": 10
+      },
+      {
+        "type": "letter",
+        "answer": "O"
+      },
+      {
+        "type": "letter",
+        "answer": "C"
+      },
+      {
+        "type": "letter",
+        "answer": "K"
+      },
+      {
+        "type": "letter",
+        "answer": "S"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ],
+    [
+      {
+        "type": "letter",
+        "answer": "W",
+        "clueNumber": 11
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "A"
+      },
+      {
+        "type": "letter",
+        "answer": "K"
+      },
+      {
+        "type": "letter",
+        "answer": "R"
+      },
+      {
+        "type": "letter",
+        "answer": "E"
+      },
+      {
+        "type": "letter",
+        "answer": "F"
+      },
+      {
+        "type": "blocked"
+      },
+      {
+        "type": "blocked"
+      }
+    ]
+  ],
+  "clues": {
+    "across": [
+      {
+        "number": 1,
+        "clue": "Navigator property offering asynchronous read and write access to copied data (9)",
+        "answer": "CLIPBOARD",
+        "row": 0,
+        "col": 0,
+        "length": 9
+      },
+      {
+        "number": 2,
+        "clue": "Global HTML attribute that makes a subtree non-interactive (5)",
+        "answer": "INERT",
+        "row": 1,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 4,
+        "clue": "HTML element that establishes the document URL used to resolve relative links (4)",
+        "answer": "BASE",
+        "row": 2,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 6,
+        "clue": "CSS function that substitutes an element attribute into a property value (4)",
+        "answer": "ATTR",
+        "row": 3,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 7,
+        "clue": "Copying Array method that replaces one indexed value without mutating the original (4)",
+        "answer": "WITH",
+        "row": 4,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 8,
+        "clue": "The blank in request___Callback, for scheduling work during spare main-thread time (4)",
+        "answer": "IDLE",
+        "row": 5,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 9,
+        "clue": "Navigator API that can prevent a device's screen from dimming or locking (4)",
+        "answer": "WAKE",
+        "row": 6,
+        "col": 2,
+        "length": 4
+      },
+      {
+        "number": 10,
+        "clue": "Navigator API for coordinating access to named resources across tabs and workers (5)",
+        "answer": "LOCKS",
+        "row": 7,
+        "col": 2,
+        "length": 5
+      },
+      {
+        "number": 11,
+        "clue": "JavaScript constructor that refers to an object without keeping it from garbage collection (7)",
+        "answer": "WEAKREF",
+        "row": 8,
+        "col": 0,
+        "length": 7
+      }
+    ],
+    "down": [
+      {
+        "number": 3,
+        "clue": "CSS Houdini function for images drawn by author-defined code (5)",
+        "answer": "PAINT",
+        "row": 2,
+        "col": 0,
+        "length": 5
+      },
+      {
+        "number": 5,
+        "clue": "HTML gauge element for a scalar measurement within a known range (5)",
+        "answer": "METER",
+        "row": 2,
+        "col": 7,
+        "length": 5
+      }
+    ]
+  }
+}
